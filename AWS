@@ -1,0 +1,25 @@
+After creating AWS instance you may have following questions:
+
+How to connect to the instace?
+
+A. change the file permission of the pem
+   chmod 400 vineeth_devops.pem
+   
+B. Run the command in the terminal
+   ssh -i path_to_key.pem username@public_dns_name
+
+   Here username is default that depends on the host system
+    Amazon Linux, Amazon Linux 2: ec2-user
+    Ubuntu: ubuntu
+    Debian: admin
+    CentOS: centos
+    Red Hat Enterprise Linux (RHEL): ec2-user or root
+    Fedora: ec2-user
+    SUSE Linux: ec2-user or root
+    Windows Server: Administrator
+
+   public_dns_name is the ip4 address
+   
+   
+   
+   HULLAHHHH you are connected !!!!!
